@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;} /* * - iniciar todos os elementos com margin 0 e padding 0 */
+
+.container-principal{font-family: 'verdana'; color:blue;}
+
+/* definir as propriedades do topo */
+header{width: 100%; height: 100px; background-color: blue; position: relative; top: 0;}
+
+/* definir as propriedades do togo */
+.logo{position: absolute; width: 300px; height: auto;}
+.logo img{width: 90%; margin-left: 10%;}
+
+/* definir as propriedades do menu */
+nav {position: absolute; right: 30px; bottom: 0px;}
+nav ul li {float: left; color:#fff; width: auto; margin: 0.8em; font-size: 1.5em; font-family: 'verdana'; list-style: none; }
+nav ul li a {text-decoration: none;color: #bbb; }
+nav ul li a:hover{color:#b13030}
+
+/*definir as propriedades da imagem */
+#banner{width: 100%;}
+#banner img{width: 100%; margin-bottom: 0;}
+#cliente {width: 100%;}
+#clinete01 img {margin-bottom: 0;}
+
+
+.modalDialog:target {
+	display: block;
+	opacity: 1;
+	pointer-events: auto;
+	}
+
+}
+
+.modalDialog p {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.modalDialog img {
+	width: 50%;
+	position: relative;
+	margin-left: 25%;
+}
+	background-color: burlywood ;
+}	
+	
+
+/*definir propriedades do footer*/
+footer{width: 100%; heigth: 18%; background-color: blue; color: #fff; position: relative; float: left; font-family: 'verdana';}
+footer .footer-text{width: 30%; margin: 1%; position: relative; float: left;}
+footer .footer-text a{color:#fff}
